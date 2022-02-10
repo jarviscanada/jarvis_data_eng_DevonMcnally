@@ -6,6 +6,11 @@ db_name=$3
 psql_user=$4
 psql_password=$5
 
+if [ $# -ne 5 ]; then
+  echo 'Arguments required: psql_host, psql_port, db_name, psql_user, psql_password'
+  exit 1
+fi
+
 hostname=$(hostname)
 timestamp=$(date +'%d-%m-%Y %H:%M:%S')
 memory_free=$(vmstat | awk 'FNR > 2{print $4}')
@@ -15,7 +20,6 @@ disk_io=$(vmstat -d | awk 'FNR > 2{print $10}')
 disk_available=$(df -m | egrep 'sda2' |awk '{$1=""; print $4}')
 export PGPASSWORD='password'
 host_id=$(psql -qtAX -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "SELECT id FROM host_info WHERE hostname='$hostname';")
-
 
 echo 'timestamp: ' $timestamp
 echo 'memory_free: ' $memory_free
@@ -27,9 +31,13 @@ echo 'disk_available: ' $disk_available
 insert_stmt="INSERT INTO host_usage (timestamp, host_id, memory_free, cpu_idle, cpu_kernel, disk_io, disk_available)
  VALUES ('$timestamp', '$host_id', '$memory_free', '$cpu_idle', '$cpu_kernel', '$disk_io', '$disk_available');"
 
-
-
-
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
 
-exit 0
+if [ $? -eq 0 ]
+then
+  exit 0
+else
+  exit 1
+fi
+
+
