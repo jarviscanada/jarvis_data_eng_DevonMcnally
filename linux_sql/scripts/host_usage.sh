@@ -13,7 +13,7 @@ fi
 
 hostname=$(hostname)
 timestamp=$(date +'%d-%m-%Y %H:%M:%S')
-memory_free=$(vmstat | awk 'FNR > 2{print $4}')
+memory_free=$(vmstat -S M | awk 'FNR > 2{print $4}')
 cpu_idle=$(vmstat | awk 'FNR > 2{print $15}')
 cpu_kernel=$(vmstat | awk 'FNR > 2{print $14}')
 disk_io=$(vmstat -d | awk 'FNR > 2{print $10}')
