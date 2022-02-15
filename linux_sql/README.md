@@ -1,12 +1,12 @@
                             PSQL/LINUX PROJECT
 
-##**Intro:** 
+## **Intro:** 
 This project is used to get the hardware info and server usage info of a user and write that data into a psql database. 
 The user does not need to set up anything manually as the scripts provided will do all the heavy lifting. 
 The scripts are written in BASH and psql is used within a docker container so no real modifications are necessary 
 to the user's environment.
 
-##**Quick start:**
+## **Quick start:**
 To start using the project, first run the scripts psql_docker.sh using the following command: `./psql_docker create your_desired_username you_desired_password`
 inside the project directory. This will provision and start a psql container. 
 
@@ -21,16 +21,16 @@ The host_usage.sh script requires the same arguments.
 However, we must first set up crontab as we need to constantly monitor the usage data. First use the command crontab -e.
 This will bring you to a new script editor. Inside the editor type: `* * * * * "absolute path of script along with same arguments as host_info"`.
 
-##**Implementation:** 
+## **Implementation:** 
 This project was created by first writing the commands to find the user
 hardware and usage info then creating an adequate psql instance and writing the commands necessary
 to insert the data into the psql database.
 
-##**Architecture:**
+## **Architecture:**
 
 ![alt text](assets/JarvisLinuxProjArchitecture.drawio.png)
 
-##**Scripts:**
+## **Scripts:**
 
 **scripts/psql_docker.sh:** 
 This script is used to provision a psql docker container. 
@@ -51,7 +51,7 @@ info and insert it into the specified database inside the host_usage table.
 It takes the same arguments as host_info.sh. However,
 this information needs to be constantly updated so crontab must be used to run host_usage.sh every minute.
 
-##**Database Modeling:**
+## **Database Modeling:**
     
 **host_info Table**
 
@@ -66,13 +66,13 @@ this information needs to be constantly updated so crontab must be used to run h
 | 2022-10-02 20:13:56 | 1       | 3301        | 97       | 0          | 0       | 23142          |
 
 
-##**Testing:**
+## **Testing:**
 All scripts and SQL were tested manually. Once any issues were resolved and the scripts gave the expected results
 the were deemed ready for use.
 
-##**Deployment:**
+## **Deployment:**
 This project is hosted on Github. No further deployment planned as of the writing of this README.
 
-##**Improvements:**
+## **Improvements:**
 There are some gaps in the project that the scripts do not cover. Such as how to log into the
 PSQL instance should the need arise. Also, SQL scripts should be revised down the line if a better option becomes available.
