@@ -1,0 +1,108 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Diploma Computer Programming",
+      "department": "Advanced Technology",
+      "duration": "2019-2021",
+      "school_name": "Algonquin College"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Advanced Diploma Electrical Engineering Technology",
+      "department": "Construction and Skilled Trades",
+      "duration": "2017-2018",
+      "school_name": "Algonquin College"
+    },
+    {
+      "awards_achievements": [
+        "Class Representative 2016"
+      ],
+      "degree": "Diploma Electrical Engineering Technology",
+      "department": "Construction and Skilled Trades",
+      "duration": "2016-2017",
+      "school_name": "Algonquin College"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_DevonMcnally",
+  "highlighted_projects": [
+    {
+      "description": "Created using Java and the Java awt library for GUI. This is a fully functional game of Solitaire classic with an extra Vegas Rules game mode. It is available for download free at the link provided.",
+      "git_url": "https://djmcn.itch.io/solitaire-classic-and-vegas-rules",
+      "name": "Solitaire: Classic and Vegas Rules"
+    },
+    {
+      "description": "Utilized the Arduino platform to create a simple automated plant watering system. The system was comprised of an Arduino UNO, an LCD screen, a small pump, and several electrical components to make up it's circuit(wires, buttons, Diodes, etc). The user inputs a desired watering interval in hours on the screen and the pump will turn on for 30 seconds at the designated interval.",
+      "git_url": null,
+      "name": "Automatic Plant Watering System"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Designed to find various hardware and server usage information from the host and insert the data into a psql database. The project is automated using BASH scripts and sql files.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    }
+  ],
+  "name": "Devon McNally",
+  "others": [
+    {
+      "bullets": [
+        "SCTE Certified"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        " "
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Hiking/Camping",
+        "Gaming(video games, card games)",
+        "Hobby game development"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Developed software projects using standard industry tools and program like git, psql, Java, BASH cli and more. Cooperated with colleagues on these projects using agile/scrum methodology. Involved independently learning new concepts and applying them to real world problems.",
+      "duration": "2022-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Dependable Hometech",
+      "description": "Worked as telecommunications technician in residential neighbourhoods. Highly independent and fast paced environment. Job duties were to install home internet, telephone an tv services. As well as perform a wide variety of testing and repairs on local telecom infrastructure.",
+      "duration": "2019",
+      "title": "Residential Technician"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Python",
+      "C++",
+      "Godot",
+      "Unity",
+      "Arduino IDE"
+    ],
+    "familiar": [
+      "AutoCAD",
+      "Neo4j",
+      "C#",
+      "HTML",
+      "CSS"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "Hello my name is Devon and for a long time now I have been wanting to work in software development. Working with new technologies to produce new and interesting products is my goal and I am prepared to do a lot of learning to achieve it. I have multiple ontario college diplomas related to technology and engineering and have a strong aptitude for troubleshooting."
+}
