@@ -5,10 +5,9 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_DevonMcnal
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Hello my name is Devon and for a long time now I have been wanting to work in software development. Working 
-  with new technologies to produce new and interesting products is my goal and I am prepared to do a lot of learning 
-  to achieve it. I have multiple ontario college diplomas related to technology and engineering and have a strong aptitude
-  for troubleshooting.
+summary: "Junior software developer with 2+ years experience in Java. Educated in electrical engineering and computer
+programming at Algonquin College. Adept at troubleshooting, quick learner, and determined to grow as a software developer.
+I enjoy working as part of a team and I really like the process of creating software applications of all kinds."
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -16,8 +15,8 @@ skills:
   # At least 5 skills
   proficient:
     - Java
-    - Linux/Bash
     - RDBMS/SQL
+    - Linux/Bash
     - Agile/Scrum
     - Git
   # At least 5 skills
@@ -26,14 +25,15 @@ skills:
     - C++
     - Godot
     - Unity
-    - Arduino IDE
+    - Arduino
   # At least 5 skills
   familiar:
-    - AutoCAD
-    - Neo4j
     - C#
     - HTML
     - CSS
+    - AutoCAD
+    - Neo4j
+
 
 # List of Jarvis projects
 jarvis_projects:
@@ -41,8 +41,9 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Designed to find various hardware and server usage information from the host and insert the
-      data into a psql database. The project is automated using BASH scripts and sql files.
+    description: Designed to retrieve hardware and server usage data for insertion into a postgresSQL database. The project
+      is comprised of bash scripts and SQL files. It also utilizes crontab to automate the regular retrieval and insertion of the server usage
+      information.
   #- name: "Core Java Apps"
     #git_url: "/core_java"
     #description:
@@ -71,14 +72,13 @@ highlighted_projects:
     #project name
   - name: "Solitaire: Classic and Vegas Rules"
     #URL is optional
-    git_url: "https://djmcn.itch.io/solitaire-classic-and-vegas-rules"
+    git_url:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Created using Java and the Java awt library for GUI. This is a fully functional game of Solitaire classic
-    with an extra Vegas Rules game mode. It is available for download free at the link provided."
+    with an extra Vegas Rules game mode. It is available for download at the following link https://djmcn.itch.io/solitaire-classic-and-vegas-rules."
   - name: "Automatic Plant Watering System"
     git_url:
-    description: "Utilized the Arduino platform to create a simple automated plant watering system. The system was comprised of
-    an Arduino UNO, an LCD screen, a small pump, and several electrical components to make up it's circuit(wires, buttons, Diodes, etc).
+    description: "Utilized Arduino software and hardware to create an automated water pump system. 
     The user inputs a desired watering interval in hours on the screen and the pump will turn on for 30 seconds at the designated interval.
     Written in C++."
 #List of professional experience
@@ -90,14 +90,14 @@ professional_experience:
     company: "Jarvis"
     duration: "2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed software projects using standard industry tools and program like git, psql, Java, BASH cli and more.
-    Cooperated with colleagues on these projects using agile/scrum methodology. Involved independently learning new concepts and applying
+    description: "Developed software projects using standard industry tools and programs like git, psql, Java, bash and more.
+    Cooperated with colleagues on these projects using agile/scrum methodology. Learned new concepts and how to apply
     them to real world problems."
   - title: "Residential Technician"
     company: "Dependable Hometech"
     duration: "2019"
-    description: "Worked as telecommunications technician in residential neighbourhoods. Highly independent and fast paced environment. Job duties
-    were to install home internet, telephone an tv services. As well as perform a wide variety of testing and repairs on local telecom 
+    description: "Worked as telecommunications technician in residential neighbourhoods. Highly independent and fast paced environment. Involved
+    installing home internet, telephone an television services. As well as performing a wide variety of testing and repairs on local telecom 
     infrastructure."
 #List of education
 education:
@@ -125,12 +125,14 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "SCTE Certified"
+      - "SCTE Certified. Society of Cable Telecommunications Engineers. Professional certification in telecom cabling."
   - title: "Awards"
     bullets:
-      - " "
+      - "Guitar. Have been playing for over a decade but mostly enjoy playing little original jingles."
   - title: "Activities/Hobbies"
     bullets:
-      - "Hiking/Camping"
+      - "Hiking/Camping. Enjoy hiking up challenging trails several times a month during warmer seasons. Canoe camping 
+      once or twice a year during the summer."
       - "Gaming(video games, card games)"
-      - "Hobby game development"
+      - "Hobby video game development. Making game demos using Unity and Godot in 2D and 3D. Blender used to create
+        game assets."

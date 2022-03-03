@@ -27,19 +27,19 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_DevonMcnally",
   "highlighted_projects": [
     {
-      "description": "Created using Java and the Java awt library for GUI. This is a fully functional game of Solitaire classic with an extra Vegas Rules game mode. It is available for download free at the link provided.",
-      "git_url": "https://djmcn.itch.io/solitaire-classic-and-vegas-rules",
+      "description": "Created using Java and the Java awt library for GUI. This is a fully functional game of Solitaire classic with an extra Vegas Rules game mode. It is available for download at the following link https://djmcn.itch.io/solitaire-classic-and-vegas-rules.",
+      "git_url": null,
       "name": "Solitaire: Classic and Vegas Rules"
     },
     {
-      "description": "Utilized the Arduino platform to create a simple automated plant watering system. The system was comprised of an Arduino UNO, an LCD screen, a small pump, and several electrical components to make up it's circuit(wires, buttons, Diodes, etc). The user inputs a desired watering interval in hours on the screen and the pump will turn on for 30 seconds at the designated interval.",
+      "description": "Utilized Arduino software and hardware to create an automated water pump system. The user inputs a desired watering interval in hours on the screen and the pump will turn on for 30 seconds at the designated interval. Written in C++.",
       "git_url": null,
       "name": "Automatic Plant Watering System"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Designed to find various hardware and server usage information from the host and insert the data into a psql database. The project is automated using BASH scripts and sql files.",
+      "description": "Designed to retrieve hardware and server usage data for insertion into a postgresSQL database. The project is comprised of bash scripts and SQL files. It also utilizes crontab to automate the regular retrieval and insertion of the server usage information.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     }
@@ -48,21 +48,21 @@
   "others": [
     {
       "bullets": [
-        "SCTE Certified"
+        "SCTE Certified. Society of Cable Telecommunications Engineers. Professional certification in telecom cabling."
       ],
       "title": "Certificates"
     },
     {
       "bullets": [
-        " "
+        "Guitar. Have been playing for over a decade but mostly enjoy playing little original jingles."
       ],
       "title": "Awards"
     },
     {
       "bullets": [
-        "Hiking/Camping",
+        "Hiking/Camping. Enjoy hiking up challenging trails several times a month during warmer seasons. Canoe camping once or twice a year during the summer.",
         "Gaming(video games, card games)",
-        "Hobby game development"
+        "Hobby video game development. Making game demos using Unity and Godot in 2D and 3D. Blender used to create game assets."
       ],
       "title": "Activities/Hobbies"
     }
@@ -70,13 +70,13 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Developed software projects using standard industry tools and program like git, psql, Java, BASH cli and more. Cooperated with colleagues on these projects using agile/scrum methodology. Involved independently learning new concepts and applying them to real world problems.",
+      "description": "Developed software projects using standard industry tools and programs like git, psql, Java, bash and more. Cooperated with colleagues on these projects using agile/scrum methodology. Learned new concepts and how to apply them to real world problems.",
       "duration": "2022-present",
       "title": "Software Developer"
     },
     {
       "company": "Dependable Hometech",
-      "description": "Worked as telecommunications technician in residential neighbourhoods. Highly independent and fast paced environment. Job duties were to install home internet, telephone an tv services. As well as perform a wide variety of testing and repairs on local telecom infrastructure.",
+      "description": "Worked as telecommunications technician in residential neighbourhoods. Highly independent and fast paced environment. Involved installing home internet, telephone an television services. As well as performing a wide variety of testing and repairs on local telecom infrastructure.",
       "duration": "2019",
       "title": "Residential Technician"
     }
@@ -87,22 +87,22 @@
       "C++",
       "Godot",
       "Unity",
-      "Arduino IDE"
+      "Arduino"
     ],
     "familiar": [
-      "AutoCAD",
-      "Neo4j",
       "C#",
       "HTML",
-      "CSS"
+      "CSS",
+      "AutoCAD",
+      "Neo4j"
     ],
     "proficient": [
       "Java",
-      "Linux/Bash",
       "RDBMS/SQL",
+      "Linux/Bash",
       "Agile/Scrum",
       "Git"
     ]
   },
-  "summary": "Hello my name is Devon and for a long time now I have been wanting to work in software development. Working with new technologies to produce new and interesting products is my goal and I am prepared to do a lot of learning to achieve it. I have multiple ontario college diplomas related to technology and engineering and have a strong aptitude for troubleshooting."
+  "summary": "Junior software developer with 2+ years experience in Java. Educated in electrical engineering and computer programming at Algonquin College. Adept at troubleshooting, quick learner, and determined to grow as a software developer. I enjoy working as part of a team and I really like the process of creating software applications of all kinds."
 }
