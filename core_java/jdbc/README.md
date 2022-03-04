@@ -12,10 +12,11 @@ contains the main class that can be used for various SQL operations.
 ![alt text](Assets/img.png)
 
 ## Design Patterns
-The project uses a couple well know jdbc patterns. The first of which is the DAO
-or Data Access Object pattern. This pattern involves using an abstract api to simplify
-CRUD operations on specific tables in a database. The other pattern used is the repository 
-pattern. 
+The project implements the DAO pattern to perform CRUD operations against a psql database. 
+This pattern involves using an abstract api to simplify these operations. Another pattern
+that could potentially have been used is the repository pattern. However, since the project only involves dealing with 
+the customer table it was not necessary.
 
 # Test
-How you test y test data set up, query result)
+Tests were done manually by executing various CRUD operations via the DAO and running SELECT commands on the 
+database to ensure the operations were successful.
