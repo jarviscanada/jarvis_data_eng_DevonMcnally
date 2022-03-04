@@ -47,7 +47,8 @@ All testing was done manually. To test listFiles I made several extra directorie
 make sure they were all being found and added to the list. 
 
 # Deployment
-The project is available on github and has also been dockerized, so it is available on docker
-hub as well.
+The project is available on github and has also been dockerized and pushed to docker hub.
 
 # Improvement
+To improve this project I would test each method individually. First using the original for loop approach, next 
+using lambda streams. Then I would use whatever approach was fastest for each method. 
