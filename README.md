@@ -42,7 +42,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_DevonMcnal
 
 ## Miscellaneous
 - SCTE Certified. Society of Cable Telecommunications Engineers. Professional certification in telecom cabling.
-- Guitar. Have been playing for over a decade but mostly enjoy playing little original jingles.
+- Bonsai. I have been caring for bonsai trees for over 2 years now. Most of my trees were grown from seeds.
 - Hiking/Camping. Enjoy hiking up challenging trails several times a month during warmer seasons. Canoe camping once or twice a year during the summer.
 - Gaming(video games, card games)
 - Hobby video game development. Making game demos using Unity and Godot in 2D and 3D. Blender used to create game assets.
