@@ -64,12 +64,15 @@ public class TwitterController implements Controller{
             throw new IllegalArgumentException("Arguments must contain id to delete Tweet");
         }
 
+        System.out.println(args.length);
         String[] idArray = new String[args.length - 1];
 
 
-        //i = 1 to ignore first value which will be the command
+        //Ignoring first value which will be the command
         for (int i = 1; i < args.length; i++){
-            idArray[i] = args[i];
+            if(i > 0){
+                idArray[i-1] = args[i];
+            }
         }
 
         return service.deleteTweets(idArray);

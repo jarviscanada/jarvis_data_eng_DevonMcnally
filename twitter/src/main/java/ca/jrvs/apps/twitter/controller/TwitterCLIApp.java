@@ -41,8 +41,6 @@ public class TwitterCLIApp {
             throw new IllegalArgumentException(EXCEPTION_STR);
         }
 
-
-
         switch (args[0].toLowerCase()){
 
             case "post":
@@ -65,7 +63,6 @@ public class TwitterCLIApp {
         ObjectMapper mapper = new ObjectMapper().configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
         ObjectWriter writer = mapper.writer().withDefaultPrettyPrinter();
 
-
         String tweetString = null;
         try {
             tweetString = writer.writeValueAsString(tweet);
@@ -75,8 +72,4 @@ public class TwitterCLIApp {
         System.out.println(tweetString);
 
     }
-
-
-
-
 }

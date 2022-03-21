@@ -80,6 +80,7 @@ public class TwitterService implements Service{
 
 
         //Will throw NumberFormatException if string is not parsable
+        System.out.println(id);
         Float.parseFloat(id);
 
         if(id == null){
