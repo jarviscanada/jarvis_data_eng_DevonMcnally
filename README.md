@@ -1,6 +1,6 @@
 # Devon McNally . Jarvis Consulting
 
-Junior software developer with 2+ years experience in Java. Educated in electrical engineering and computer programming at Algonquin College. Adept at troubleshooting, quick learner, and determined to grow as a software developer. I enjoy working as part of a team and I really like the process of creating software applications of all kinds.
+Junior software developer with 2+ years experience in Java. Educated in electrical engineering and computer programming at Algonquin College. Have been training with Jarvis full-time since January 2022 where I have learned new skills and reinforced old ones. Looking for a backend or full-stack position but am willing to learn frontend. Adept at troubleshooting, quick learner, and determined to grow as a software developer. Experience working in analytical fast-paced environments. I enjoy working as part of a team and the process of creating software applications of all kinds.
 
 ## Skills
 
