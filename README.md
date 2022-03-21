@@ -19,7 +19,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_DevonMcnal
 
 
 ## Highlighted Projects
-**Solitaire: Classic and Vegas Rules**: Created using Java and the Java awt library for GUI. This is a fully functional game of Solitaire classic with an extra Vegas Rules game mode. It is available for download at the following link https://djmcn.itch.io/solitaire-classic-and-vegas-rules.
+**Solitaire: Classic and Vegas Rules**: Developed in a team using agile/scrum methodology. Created using Java and the Java AWT library for GUI and Github used for version control. This is a fully functional game of Solitaire classic with an extra Vegas Rules game mode. It is available for download at the following link https://djmcn.itch.io/solitaire-classic-and-vegas-rules.
 
 **Automatic Plant Watering System**: Utilized Arduino software and hardware to create an automated water pump system. The user inputs a desired watering interval in hours on the screen and the pump will turn on for 30 seconds at the designated interval. Written in C++.
 

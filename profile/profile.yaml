@@ -80,7 +80,6 @@ highlighted_projects:
     and Github used for version control. This is a fully functional game of Solitaire classic with an extra Vegas Rules game 
     mode. It is available for download at the following link https://djmcn.itch.io/solitaire-classic-and-vegas-rules."
   - name: "Automatic Plant Watering System"
-  - name: "Automatic Plant Watering System"
     git_url:
     description: "Utilized Arduino software and hardware to create an automated water pump system. 
     The user inputs a desired watering interval in hours on the screen and the pump will turn on for 30 seconds at the designated interval.
