@@ -76,8 +76,10 @@ highlighted_projects:
     #URL is optional
     git_url:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Created using Java and the Java awt library for GUI. This is a fully functional game of Solitaire classic
-    with an extra Vegas Rules game mode. It is available for download at the following link https://djmcn.itch.io/solitaire-classic-and-vegas-rules."
+    description: "Developed in a team using agile/scrum methodology. Created using Java and the Java AWT library for GUI 
+    and Github used for version control. This is a fully functional game of Solitaire classic with an extra Vegas Rules game 
+    mode. It is available for download at the following link https://djmcn.itch.io/solitaire-classic-and-vegas-rules."
+  - name: "Automatic Plant Watering System"
   - name: "Automatic Plant Watering System"
     git_url:
     description: "Utilized Arduino software and hardware to create an automated water pump system. 
