@@ -46,7 +46,6 @@ public class JavaGrepImp implements  JavaGrep{
          List<String> readList;
 
 
-
          for (File file: fileList){
              readList = readLines(file);
             for (String line: readList){
@@ -122,11 +121,9 @@ public class JavaGrepImp implements  JavaGrep{
     @Override
     public boolean containsPattern(String line) {
 
-
         Pattern pattern = Pattern.compile(getRegex());
         Matcher matcher = pattern.matcher(line);
         boolean result = false;
-
 
         while (matcher.find()){
 
@@ -139,7 +136,6 @@ public class JavaGrepImp implements  JavaGrep{
 
     @Override
     public void writeToFile(List<String> lines) throws IOException {
-
 
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;

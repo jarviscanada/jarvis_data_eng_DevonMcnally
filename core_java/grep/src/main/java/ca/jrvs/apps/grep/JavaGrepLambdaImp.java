@@ -53,8 +53,6 @@ public class JavaGrepLambdaImp implements JavaGrep{
         List<File> fileList = listFiles(getRootPath());
         List<String> readList;
 
-
-
         for (File file: fileList){
             readList = readLines(file);
             for (String line: readList){
@@ -110,7 +108,6 @@ public class JavaGrepLambdaImp implements JavaGrep{
         Matcher matcher = pattern.matcher(line);
         boolean result = false;
 
-
         while (matcher.find()){
 
 
@@ -119,12 +116,10 @@ public class JavaGrepLambdaImp implements JavaGrep{
 
         return result;
 
-
     }
 
     @Override
     public void writeToFile(List<String> lines) throws IOException {
-
 
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;
@@ -132,7 +127,6 @@ public class JavaGrepLambdaImp implements JavaGrep{
         try {
             fileWriter = new FileWriter(getOutFile(), false);
             bufferedWriter = new BufferedWriter(fileWriter);
-
 
             for (String line : lines) {
                 bufferedWriter.write(line);
@@ -147,7 +141,6 @@ public class JavaGrepLambdaImp implements JavaGrep{
             if(bufferedWriter!= null){
                 bufferedWriter.close();
             }
-
         }
     }
 
