@@ -1,0 +1,108 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Diploma Computer Programming",
+      "department": "Advanced Technology",
+      "duration": "2019-2021",
+      "school_name": "Algonquin College"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Advanced Diploma Electrical Engineering Technology",
+      "department": "Construction and Skilled Trades",
+      "duration": "2017-2018",
+      "school_name": "Algonquin College"
+    },
+    {
+      "awards_achievements": [
+        "Class Representative 2016"
+      ],
+      "degree": "Diploma Electrical Engineering Technology",
+      "department": "Construction and Skilled Trades",
+      "duration": "2016-2017",
+      "school_name": "Algonquin College"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_DevonMcnally",
+  "highlighted_projects": [
+    {
+      "description": "Developed in a team using agile/scrum methodology. Created using Java and the Java AWT library for GUI and Github used for version control. This is a fully functional game of Solitaire classic with an extra Vegas Rules game mode. It is available for download at the following link https://djmcn.itch.io/solitaire-classic-and-vegas-rules.",
+      "git_url": null,
+      "name": "Solitaire: Classic and Vegas Rules"
+    },
+    {
+      "description": "Utilized Arduino software and hardware to create an automated water pump system. The user inputs a desired watering interval in hours on the screen and the pump will turn on for 30 seconds at the designated interval. Written in C++.",
+      "git_url": null,
+      "name": "Automatic Plant Watering System"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Designed to retrieve hardware and server usage data for insertion into a postgresSQL database. The project is comprised of bash scripts and SQL files. It also utilizes crontab to automate the regular retrieval and insertion of the server usage information.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    }
+  ],
+  "name": "Devon McNally",
+  "others": [
+    {
+      "bullets": [
+        "SCTE Certified. Society of Cable Telecommunications Engineers. Professional certification in telecom cabling."
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Bonsai. I have been caring for bonsai trees for over 2 years now. Most of my trees were grown from seeds."
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Hiking/Camping. Enjoy hiking up challenging trails several times a month during warmer seasons. Canoe camping once or twice a year during the summer.",
+        "Gaming(video games, card games)",
+        "Hobby video game development. Making game demos using Unity and Godot in 2D and 3D. Blender used to create game assets."
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Developed software projects using standard industry tools and programs like git, psql, Java, bash and more. Cooperated with colleagues on these projects using agile/scrum methodology. Learned new concepts and how to apply them to real world problems.",
+      "duration": "2022-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Dependable Hometech",
+      "description": "Worked as telecommunications technician in residential neighbourhoods. Highly independent and fast paced environment. Involved installing home internet, telephone an television services. As well as performing a wide variety of testing and repairs on local telecom infrastructure.",
+      "duration": "2019",
+      "title": "Residential Technician"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Python",
+      "C++",
+      "Godot",
+      "Unity",
+      "Arduino"
+    ],
+    "familiar": [
+      "C#",
+      "HTML",
+      "CSS",
+      "AutoCAD",
+      "Neo4j"
+    ],
+    "proficient": [
+      "Java",
+      "RDBMS/SQL",
+      "Linux/Bash",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "Junior software developer with 2+ years experience in Java. Educated in electrical engineering and computer programming at Algonquin College. Have been training with Jarvis full-time since January 2022 where I have learned new skills and reinforced old ones. Looking for a backend or full-stack position but am willing to learn frontend. Adept at troubleshooting, quick learner, and determined to grow as a software developer. Experience working in analytical fast-paced environments. I enjoy working as part of a team and the process of creating software applications of all kinds."
+}
