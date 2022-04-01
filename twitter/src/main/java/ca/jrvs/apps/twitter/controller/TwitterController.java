@@ -14,8 +14,11 @@ import java.util.List;
 
 public class TwitterController implements Controller{
 
-    TwitterService service = new TwitterService();
+    TwitterService service;
     Tweet tweet;
+
+
+    public TwitterController(TwitterService service){this.service = service;}
 
     @Override
     public Tweet postTweet(String[] args) throws URISyntaxException, IOException {

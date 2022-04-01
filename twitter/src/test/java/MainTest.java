@@ -23,14 +23,14 @@ public class MainTest {
     public static void main(String[] args) throws URISyntaxException, IOException, JSONException {
 
         Tweet t = new TweetBuilder().text("Making tweets the hard way").coordinates(23, 87).build();
-        TwitterDao dao = new TwitterDao();
+        //TwitterDao dao = new TwitterDao();
         //dao.create(t);
         //dao.findById("20");
         //dao.deleteById("1504191964765466628");
 
-        Controller controller = new TwitterController();
+        //Controller controller = new TwitterController();
         String[] strings = new String[]{"post", "Test of apps controller model", "75:89"};
-        controller.postTweet(strings);
+        //controller.postTweet(strings);
 
 
     }

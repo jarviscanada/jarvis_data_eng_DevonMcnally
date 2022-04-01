@@ -23,14 +23,10 @@ public class TwitterDao implements CrdDao<Tweet, String>{
     //Response
     private static final int HTTP_OK = 200;
 
-    private HttpHelper httpHelper = new TwitterHttpHelper(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, TOKEN_SECRET);
-
-    private static String   CONSUMER_KEY  = "BTThQmTPeTLbDqmwAUv8keYw6";
-    private static String CONSUMER_SECRET =  "V0pDtE8sVBcUCGeoTyflzmCk8FiCwtI7kGs6MK6gIAepp9S5ZX";
-    private static String ACCESS_TOKEN = "998592048474226689-GWShYN3PgBOnaebxfd6IEK7LjbfceFI";
-    private static String TOKEN_SECRET = "q0zsUiFB7X9tZuCZVaxOzwJuUkZVuu3eBHufAiILq6UCs";
+    private HttpHelper httpHelper;
 
 
+    public TwitterDao(HttpHelper httpHelper){this.httpHelper = httpHelper;}
     @Override
     public Tweet create(Tweet tweet) throws URISyntaxException, IOException {
 

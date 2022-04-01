@@ -15,8 +15,10 @@ import java.util.stream.Stream;
 public class TwitterService implements Service{
 
     Tweet createdTweet = null;
-    CrdDao dao = new TwitterDao();
+    CrdDao dao;
 
+
+    public TwitterService(CrdDao dao){this.dao = dao;}
 
     @Override
     public Tweet postTweet(Tweet tweet) throws URISyntaxException, IOException {
